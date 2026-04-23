@@ -69,7 +69,7 @@ function Index() {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="#top" className="flex items-center gap-3">
-            <img src={logo} alt="Burger Lab logo" className="h-10 w-auto" />
+            <img src={logo} alt="Burger Lab logo" className="h-16 w-auto md:h-20" />
           </a>
           <nav className="hidden gap-8 text-sm font-semibold uppercase tracking-wider md:flex">
             <a href="#menu" className="hover:text-primary">Menu</a>
@@ -250,7 +250,7 @@ function Index() {
           <div>
             <div className="text-xs font-bold uppercase tracking-widest text-primary">Visit</div>
             <p className="mt-2 text-sm text-muted-foreground">Open daily · 11:00 – 23:00</p>
-            <p className="text-sm text-muted-foreground">Kampala, Uganda</p>
+            <p className="text-sm text-muted-foreground">Dar es Salaam, Tanzania</p>
           </div>
           <div>
             <div className="text-xs font-bold uppercase tracking-widest text-primary">Follow</div>

@@ -67,4 +67,4 @@ export const drinks: MenuItem[] = [
   { name: "Seven Up", desc: "Soda", price: 2000 },
 ];
 
-export const fmt = (n: number) => n.toLocaleString() + " UGX";
+export const fmt = (n: number) => n.toLocaleString() + " TSH";
